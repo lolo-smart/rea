@@ -425,3 +425,7 @@ demos remain subject to vendor terms, including user, feature, automation, and
 output sharing restrictions. Cracked copies, stolen keys, unauthorized key
 sharing, and bypassing license restrictions are not authorized. This guidance
 does not amend MIT or third-party licenses.
+
+## Personal Windows workbench
+
+This fork includes a version-aligned local installer, CLI entry point, and verification scripts in [workbench](workbench/README.zh-CN.txt). Runtimes, machine configuration, samples, and Evidence stay under the ignored .local directory. The upstream source and MIT license are preserved.

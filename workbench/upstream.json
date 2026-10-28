@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/morluto/rea",
+  "tag": "rea-agents-6.8.0",
+  "commit": "160d821ac9a0310afcb8d1fc427862dd6508add5",
+  "package_version": "6.8.0",
+  "packaged_skill_version": "49",
+  "mcp_tool_count": 229,
+  "integration_date": "2026-10-28",
+  "source_sync": "Fast-forward to the official release tag, preserving the existing fork history; no history rewriting.",
+  "runtime": "Published rea-agents npm package; source builds use the upstream development workflow."
+}

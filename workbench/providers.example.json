@@ -1,0 +1,5 @@
+{
+  "JAVA_HOME": "C:/path/to/jdk21",
+  "GHIDRA_INSTALL_DIR": "C:/path/to/ghidra_12.1.4_PUBLIC",
+  "REA_JADX_MCP_JAR": "C:/path/to/jadx-headless-mcp-0.7.1-all.jar"
+}

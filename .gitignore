@@ -77,3 +77,13 @@ Thumbs.db
 website/_site/
 # Temporary translation output prepared before replacing the complete site.
 website/.i18n-*/
+
+# Personal workbench: machine settings, runtimes, private inputs and Evidence stay local.
+/.local/
+/samples/
+/evidence/
+/captures/
+*.apk
+*.aab
+*.exe
+*.msi
