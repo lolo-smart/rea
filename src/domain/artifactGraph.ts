@@ -61,6 +61,7 @@ const artifactFormatSchema = z.enum([
   "pkg",
   "asar",
   "godot-pck",
+  "unityfs",
   "javascript-bundle",
   "source-map",
   "mach-o-universal",
@@ -86,6 +87,8 @@ const artifactFormatSchema = z.enum([
   "file",
   "pyinstaller",
   "node-sea",
+  "intel-hex",
+  "srec",
   "unknown",
 ]);
 
@@ -93,6 +96,9 @@ const artifactFormatSchema = z.enum([
 const artifactContentFormatSchema = artifactFormatSchema.extract([
   "zip",
   "godot-pck",
+  "unityfs",
+  "intel-hex",
+  "srec",
   "mach-o-universal",
   "mach-o",
   "elf",
@@ -148,8 +154,8 @@ export const artifactOccurrenceSchema = z.object({
   compressed_size: z.int().min(0).max(Number.MAX_SAFE_INTEGER).nullable(),
   executable: z.boolean(),
   encrypted: z.boolean(),
-  /** Positive ASAR companion declaration; older inventories may not record it. */
-  unpacked: z.literal(true).exactOptional(),
+  /** Reader-observed ASAR storage; omission leaves historical storage unknown. */
+  unpacked: z.boolean().exactOptional(),
   hash_status: z.enum(["verified", "mismatched", "not-hashed", "unavailable"]),
   source_location: artifactByteRangeSchema.nullable(),
   /** Exact reader-source path or opaque key, including an observed empty key. */
