@@ -49,3 +49,7 @@ JSONL增加独立控制记录；旧整JSON消费者使用 --format json。
 https://github.com/morluto/rea
 https://github.com/morluto/rea/releases/tag/rea-agents-6.8.0
 MIT 许可证见仓库 LICENSE。原作者及上游来源保持不变。
+
+跨工程知识库（2026-11-08）
+能力与验证范围、此 fork 的工作台贡献、四组项目案例、经验纠正和后续回写模板，见 workbench/knowledge/README.md。
+本次生产 MCP 自检通过 229/229 工具、6/6 提示词；案例为历史执行复核，未重跑游戏。

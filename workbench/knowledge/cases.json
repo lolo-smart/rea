@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-08",
+  "timezone": "Asia/Shanghai",
+  "runtime_version": "6.8.0",
+  "packaged_skill_version": "49",
+  "current_checks": {
+    "cli_version": "6.8.0",
+    "production_stdio_mcp_healthy": true,
+    "mcp_tools_expected": 229,
+    "mcp_tools_observed": 229,
+    "mcp_prompts_expected": 6,
+    "mcp_prompts_observed": 6,
+    "current_chat_advertised_rea_tools": 229,
+    "cli_catalog_commands": 175,
+    "catalog_is_not_all_operations_verified": true,
+    "targets_rerun_in_this_review": false
+  },
+  "evidence_classification": [
+    "current-execution",
+    "historical-execution-reviewed",
+    "source-derived",
+    "inference",
+    "not-verified"
+  ],
+  "cases": [
+    {
+      "id": "C01",
+      "category": "unity-il2cpp-apk",
+      "evidence_status": "historical-execution-reviewed",
+      "source_dates": ["2026-10-26", "2026-10-28"],
+      "observed": ["APK inventory and selected declarations", "metadata-v31 inspection"],
+      "not_established": ["native-address linking for the metadata-only run", "original C# method bodies", "complete combat parity"],
+      "version_isolation_required": true
+    },
+    {
+      "id": "C02",
+      "category": "unity-mono-banana-aircraft",
+      "evidence_status": "historical-execution-reviewed",
+      "observed": ["managed static inspection", "auxiliary export and dependency repair reports", "real-camera and ordinary-entry corrections"],
+      "not_established": ["complete original-game 1:1 acceptance", "all flight and visual behavior"],
+      "auxiliary_and_reconstruction_work_is_not_rea_engine_output": true
+    },
+    {
+      "id": "C03",
+      "category": "love-lua-balatro",
+      "evidence_status": "historical-execution-reviewed",
+      "initial_recovery_date": "2026-10-28",
+      "files_verified_and_preserved": 292,
+      "all_file_hashes_match_archive": true,
+      "observed": ["REA artifact extraction", "independent byte verification", "later porting reports reviewed"],
+      "not_established": ["unpublished authoring project", "all gameplay combinations", "whole-game audiovisual equivalence"],
+      "later_port_is_not_automatic_rea_output": true
+    },
+    {
+      "id": "C04",
+      "category": "windows-demo-geometry-wars",
+      "evidence_status": "historical-execution-reviewed",
+      "source_date": "2026-11-05",
+      "observed": ["installer and game layer separation", "PE imports, resources and certificate structures"],
+      "target_executed_in_original_review": false,
+      "not_established": ["Android APK acquisition", "original renderer reconstruction", "cryptographic signature trust", "retail-build equivalence"]
+    }
+  ],
+  "publication": {
+    "contains_private_samples": false,
+    "contains_game_code_or_assets": false,
+    "contains_raw_evidence": false,
+    "private_provenance_index_stays_local": true,
+    "automatic_cross_project_collection_enabled": false
+  }
+}
